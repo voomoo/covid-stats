@@ -16,7 +16,6 @@ function App() {
     getWorldChartData(setWorldChartData);
     getWorldChartDataRD(setWorldChartDataRD);
     getWorldValues(setWorldValues);
-    console.log("World Chart Data", worldChartData);
   }, []);
   return (
     <div className="App">
