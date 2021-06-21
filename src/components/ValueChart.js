@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Charts from "react-apexcharts";
 import valueChartIcon from "../assets/value-chart-icon.svg";
 import Loader from "react-loader-spinner";
@@ -16,14 +15,14 @@ const ValueChart = ({
   subValue2,
   labels,
 }) => {
-  const [options, setOptions] = useState({
+  const options = {
     options: {
       chart: {
         type: "donut",
       },
     },
     labels: labels,
-  });
+  };
 
   return (
     <div className="value-chart col-lg-5">
