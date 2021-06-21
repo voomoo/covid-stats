@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --primary: #7eca9c;
+  --secondary: #006a4d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #4f4f4f;
+}
+
+.line-chart-group > div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.value-chart-group > div {
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  height: 70vh;
+  max-width: 100%;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+.hero-section-map {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+}
+
+.hero-section-map > img {
+  max-width: 90%;
+}
+.hero-section-side-info {
+  max-width: 40%;
+}
+
+.country-info {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.country-name > h5 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+.country-flag > img {
+  max-width: 20px;
+}
+
+.country-name > h5 {
+  color: var(--secondary);
+}
+
+/* DataInfoCard component styling */
+
+.data-info-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.data-info-card img {
+  max-width: 32px;
+  margin-right: 15px;
+}
+
+.card-title h4 {
+  color: var(--secondary);
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.card-value h5 {
+  color: white;
+  font-size: 18px;
+}
+
+/* line chart */
+
+.line-chart,
+.value-chart {
+  max-width: 40%;
+  box-shadow: 0px 0px 8px 1px #a8a8a8;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.chart-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e5e5e5;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.chart-title > h4 {
+  color: #4f4f4f;
+}
+
+.current-active-cases {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.value-chart-donut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value-chart-extra-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.value-chart-extra-info div {
+  text-align: center;
+}
+
+.my-loader {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  flex-direction: column;
+}
+
+.my-loader h3 {
+  margin-top: 20px;
+}
+
+.section-divider h4 {
+  text-align: center;
+  margin-top: 50px;
+}
